@@ -3,27 +3,20 @@
     padding: 0;
 }
 
-body {
-    display: flex;
+#theBody {
     background-color: aquamarine;
-    font-family: 'Special Elite', cursive;
-    width: 100%;
+
 }
 
 #quote-box {
-    position: absolute;
+    font-family: 'Special Elite', cursive;
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 100%;
+    position: absolute;
     flex-wrap: wrap;
     margin: auto;
-}
-
-#tweet-quote {
-    display: block;
-    width: 30px;
-    align-self: center;
 }
 
 #text,
@@ -31,8 +24,6 @@ body {
 #new-quote {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
-
 }
 
 #text {
@@ -57,6 +48,12 @@ body {
     font-weight: bold;
     cursor: pointer;
     margin: 30px 0;
+}
+
+#tweet-quote {
+    display: block;
+    align-self: center;
+    width: 30px;
 }
 
 #colors {
